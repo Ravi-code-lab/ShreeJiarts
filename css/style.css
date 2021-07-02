@@ -1229,6 +1229,9 @@ button.contact-submit {
     img.fashion-img {
         width: 47%;
     }
+    nav.navbar.shrink .navbar-brand {
+        font-size: 29px;
+    }
 }
 
 @media(max-width: 480px) {
@@ -1355,6 +1358,9 @@ button.contact-submit {
     .subscribe-info-w3l input[type="submit"] {
         font-size: 14px;
         width: 30%;
+    }
+    nav.navbar.shrink .navbar-brand {
+        font-size: 24px;
     }
 
     /* team */
