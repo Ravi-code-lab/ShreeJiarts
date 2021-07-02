@@ -1023,18 +1023,20 @@ button.contact-submit {
     /* //team */
     a.navbar-brand {
         font-size: 40px;
+        padding-left: 3em;
     }
 
     a.navbar-brand img {
         top: -6px;
         left: 24px;
-        width: 40%;
+        width: 20%;
     }
 
     .navbar-light .navbar-toggler {
         border-color: #fff;
         background: #fff;
         padding: 4px 10px;
+        margin-right: 4%;
     }
 
     .navbar-light .navbar-nav .nav-link {
@@ -1233,7 +1235,14 @@ button.contact-submit {
     h3.title-wthree span {
         font-size: 32px;
     }
-
+    .navbar-toggler-icon{
+     width: 1em;   
+     height: 1em;
+    }
+    .navbar-light .navbar-toggler{
+        padding: 2px 5px;
+        margin-right: 5%;
+    }
     h3.title-wthree {
         font-size: 14px;
     }
@@ -1296,13 +1305,13 @@ button.contact-submit {
     }
 
     a.navbar-brand {
-        font-size: 34px;
+        font-size: 29px;
     }
 
     a.navbar-brand img {
         top: -3px;
         left: 16px;
-        width: 40%;
+        width: 20%;
     }
 }
 
@@ -1378,9 +1387,19 @@ button.contact-submit {
     .price-right {
         padding: 4em 3em;
     }
-
+    
     .subscribe-info-w3l form {
         padding: 20px 5px !important;
+    }
+    a.navbar-brand {
+        font-size: 19px;
+    }
+    
+
+    a.navbar-brand img {
+        top: -3px;
+        left: 16px;
+        width: 19%;
     }
 
     /* team */
