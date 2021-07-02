@@ -118,6 +118,195 @@ a:hover {
 }
 
 /*-- //bottom-to-top --*/
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .service-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    height: 100%;
+    padding: 60px 30px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5%;
+  }
+  
+  .services .service-box .icon {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+    transition: 0.3s;
+  }
+  
+  .services .service-box h3 {
+    color: #444444;
+    font-weight: 700;
+  }
+  
+  .services .service-box .read-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  
+  .services .service-box .read-more i {
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  
+  .services .service-box.blue {
+    border-bottom: 3px solid #fb4386;
+  }
+  
+  .services .service-box.blue .icon {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+    background: #dbf3fe;
+  }
+  
+  .services .service-box.blue .read-more {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.blue:hover {
+    background: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.orange {
+    border-bottom: 3px solid #fb4386;
+  }
+  
+  .services .service-box.orange .icon {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+    background: #fde3c4;
+  }
+  
+  .services .service-box.orange .read-more {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.orange:hover {
+    background: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.green {
+    border-bottom: 3px solid #fb4386;
+  }
+  
+  .services .service-box.green .icon {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+    background: #cffddf;
+  }
+  
+  .services .service-box.green .read-more {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.green:hover {
+    background: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.red {
+    border-bottom: 3px solid #fb4386;
+  }
+  
+  .services .service-box.red .icon {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+    background: #fef7f8;
+  }
+  
+  .services .service-box.red .read-more {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.red:hover {
+    background: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.purple {
+    border-bottom: 3px solid #fb4386;
+  }
+  
+  .services .service-box.purple .icon {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+    background: #f8e4fd;
+  }
+  
+  .services .service-box.purple .read-more {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.purple:hover {
+    background: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.pink {
+    border-bottom: 3px solid #fb4386;
+  }
+  
+  .services .service-box.pink .icon {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+    background: #feecf7;
+  }
+  
+  .services .service-box.pink .read-more {
+    color: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box.pink:hover {
+    background: linear-gradient(to right bottom, #ec4fae, #fb4386, #a377ea );
+  }
+  
+  .services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+    color: #fff;
+  }
+  
+  .services .service-box:hover .icon {
+    background: #fff;
+  }
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+}
+
+@media (max-width: 768px) {
+  .section-header p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}  
 
 /* hearder */
 
@@ -877,6 +1066,9 @@ button.contact-submit {
 }
 
 /* //contact page */
+.card-padding{
+    padding-bottom: 2%;
+}
 
 /* responsive */
 
