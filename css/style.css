@@ -83,7 +83,7 @@ ol {
 a:focus,
 a:hover {
     text-decoration: none;
-    outline: none
+    outline: none;
 }
 
 /*-- //Reset Code --*/
@@ -121,30 +121,9 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .service-box {
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-    height: 100%;
-    padding: 60px 30px;
-    text-align: center;
-    transition: 0.3s;
-    border-radius: 5%;
-  }
-  
-  .services .service-box .icon {
-    font-size: 36px;
-    padding: 40px 20px;
-    border-radius: 4px;
-    position: relative;
-    margin-bottom: 25px;
-    display: inline-block;
-    line-height: 0;
-    transition: 0.3s;
-  }
-  
-  .services .service-box h3 {
-    color: #444444;
-    font-weight: 700;
-  }
+.services .service-box {box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);height: 100%;padding: 60px 30px;text-align: center;transition: 0.3s;border-radius: 5%;}  
+.services .service-box .icon {    font-size: 36px;    padding: 40px 20px;    border-radius: 4px;    position: relative;    margin-bottom: 25px;    display: inline-block;    line-height: 0;    transition: 0.3s;  }
+.services .service-box h3 {color: #444444;font-weight: 700;}
   
   .services .service-box .read-more {
     display: inline-flex;
