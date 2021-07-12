@@ -747,7 +747,7 @@ ul.links li a:hover,
 /* //footer */
 /* inner pages */
 .main-banner-w3l-2 {
-    background: url(../images/banner2.jpg) no-repeat 0px -115px;
+    background: linear-gradient(to right bottom, #ce63d0, #ec4fae, #fb4386, #6488f9, #a377ea );
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -925,6 +925,7 @@ button.contact-submit {
     padding-top:15px;
     padding-bottom:15px;z-index:2;color:#181818;
 }
+
 .support-list li{
     display:block;
 }
