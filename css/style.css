@@ -908,6 +908,10 @@ button.contact-submit {
     padding: 10px 0;
     width: 100%;
 }
+.main-banner-w3l-2{
+    background-color: #00aced;
+}
+
 
 /* //contact page */
 .card-padding{
@@ -952,7 +956,7 @@ button.contact-submit {
     }
 
     .main-banner-w3l-2 {
-        min-height: 300px;
+        min-height: 150px;
         background-position: 0 -136px;
     }
 
