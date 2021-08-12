@@ -26,6 +26,8 @@ Author URL: Avintion.in
 	<!----Favicons-->
 	<link href="images/logo2.png" rel="icon" alt="icon"/>
 	<link rel="manifest" href="manifest.json" />
+	
+
 
 	<script type="application/ld+json">
 		{
@@ -92,12 +94,6 @@ Author URL: Avintion.in
 			"acceptsReservations": "True"
 		  }
 	</script>
-	<script type="module">
-		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-		const el = document.createElement('pwa-update');
-		document.body.appendChild(el);
-	 </script>
-
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -107,6 +103,11 @@ Author URL: Avintion.in
 			window.scrollTo(0, 1);
 		}
 	</script>
+	<script type="module">
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+	 </script>
 	<!-- //Meta tag Keywords -->
 	<!-- Custom-Files -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
