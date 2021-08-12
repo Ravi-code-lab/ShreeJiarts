@@ -25,6 +25,7 @@ Author URL: Avintion.in
 	<title>Shree Ji Arts  - Women's Clothing Manufacturer  </title>
 	<!----Favicons-->
 	<link href="images/logo2.png" rel="icon" alt="icon"/>
+	<link rel="manifest" href="manifest.json" />
 
 	<script type="application/ld+json">
 		{
@@ -91,6 +92,11 @@ Author URL: Avintion.in
 			"acceptsReservations": "True"
 		  }
 	</script>
+	<script type="module">
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+	 </script>
 
 	<script>
 		addEventListener("load", function () {
